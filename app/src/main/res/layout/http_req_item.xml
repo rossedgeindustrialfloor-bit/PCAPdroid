@@ -74,8 +74,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constrainedWidth="true"
+            app:layout_constraintHorizontal_bias="0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/app_name_layout"
+            app:layout_constraintEnd_toStartOf="@id/req_time"
             android:ellipsize="middle"
             android:singleLine="true"
             tools:text="http://example.org" />

@@ -97,7 +97,7 @@ public class HttpLogAdapter extends RecyclerView.Adapter<HttpLogAdapter.ViewHold
             protoAndHost.setText(req.getProtoAndHost());
             contentType.setText((req.reply != null) ? req.reply.contentType : "");
             reqTime.setText(Utils.formatEpochShort(ctx, req.timestamp / 1000));
-            httpStatus.setText((req.reply != null) ?
+            httpStatus.setText(((req.reply != null) && (req.reply.responseCode > 0)) ?
                     String.format(Utils.getPrimaryLocale(ctx), "%d %s", req.reply.responseCode, req.reply.responseStatus) : "—");
 
             int tot_length = (req.reply != null) ? (req.bodyLength + req.reply.bodyLength) : req.bodyLength;

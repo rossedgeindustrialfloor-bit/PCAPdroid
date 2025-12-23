@@ -450,7 +450,7 @@ public class ConnectionDescriptor implements HTTPReassembly.ReassemblyListener {
 
             mPendingRequests.add(request);
             mFirstReqChunkPos = -1;
-        } else if (mPendingRequests.size() > 0) {
+        } else if (!mPendingRequests.isEmpty()) {
             // find the first un-replied request
             HttpLog.HttpRequest request = mPendingRequests.remove(0);
 

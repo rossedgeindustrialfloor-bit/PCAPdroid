@@ -157,17 +157,20 @@ public class HTTPReassembly {
                                 mFirstChunk.httpQuery = path.substring(query_start);
                             }
 
-                            log_d("Path: " + path);
                             mFirstChunk.httpPath = path;
                         }
                     } else if (!chunk.is_sent && line.startsWith("HTTP/")) {
                         int first_space = line.indexOf(' ');
-                        int second_space = line.indexOf(' ', first_space + 1);
-
-                        if ((first_space > 0) && (second_space > 0)) {
+                        if (first_space > 0) {
                             try {
-                                mFirstChunk.httpResponseCode = Integer.parseInt(line.substring(first_space + 1, second_space));
-                                mFirstChunk.httpResponseStatus = line.substring(second_space + 1);
+                                // NOTE: the response status may be missing when the response is reconstructed by the ushark HTTP2 reassembly
+                                int second_space = line.indexOf(' ', first_space + 1);
+
+                                mFirstChunk.httpResponseCode = Integer.parseInt(line.substring(first_space + 1,
+                                        (second_space > 0) ? second_space : line.length()));
+
+                                if (second_space > 0)
+                                    mFirstChunk.httpResponseStatus = line.substring(second_space + 1);
                             } catch (NumberFormatException ignored) {}
                         }
                     }
