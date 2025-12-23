@@ -55,6 +55,7 @@ import com.emanuelef.remote_capture.Utils;
 import com.emanuelef.remote_capture.activities.HttpDetailsActivity;
 import com.emanuelef.remote_capture.activities.HttpLogFilterActivity;
 import com.emanuelef.remote_capture.adapters.HttpLogAdapter;
+import com.emanuelef.remote_capture.model.HttpLogFilterDescriptor;
 import com.emanuelef.remote_capture.views.EmptyRecyclerView;
 import com.google.android.material.chip.ChipGroup;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -67,6 +68,7 @@ public class HttpLogFragment extends Fragment implements HttpLog.Listener, MenuP
     private HttpLogAdapter mAdapter;
     private EmptyRecyclerView mRecyclerView;
     private FloatingActionButton mFabDown;
+    private int mFabDownMargin = 0;
     private MenuItem mMenuItemSearch;
     private SearchView mSearchView;
     private Handler mHandler;
@@ -240,8 +242,11 @@ public class HttpLogFragment extends Fragment implements HttpLog.Listener, MenuP
                     WindowInsetsCompat.Type.displayCutout() | WindowInsetsCompat.Type.ime());
 
             ViewGroup.MarginLayoutParams mlp = (ViewGroup.MarginLayoutParams) v.getLayoutParams();
-            mlp.bottomMargin = 16 + insets.bottom; // 16dp is the base margin from layout
+            if (mFabDownMargin == 0)
+                // save base margin from the layout
+                mFabDownMargin = mlp.bottomMargin;
 
+            mlp.bottomMargin = mFabDownMargin + insets.bottom;
             v.setLayoutParams(mlp);
 
             return WindowInsetsCompat.CONSUMED;
@@ -261,7 +266,7 @@ public class HttpLogFragment extends Fragment implements HttpLog.Listener, MenuP
                 mQueryToApply = search;
 
             if(savedInstanceState.containsKey("http_log_filter_desc"))
-                mAdapter.mFilter = Utils.getSerializable(savedInstanceState, "http_log_filter_desc", com.emanuelef.remote_capture.model.HttpLogFilterDescriptor.class);
+                mAdapter.mFilter = Utils.getSerializable(savedInstanceState, "http_log_filter_desc", HttpLogFilterDescriptor.class);
         }
         refreshActiveFilter();
 
@@ -458,7 +463,7 @@ public class HttpLogFragment extends Fragment implements HttpLog.Listener, MenuP
 
     private void filterResult(final ActivityResult result) {
         if(result.getResultCode() == Activity.RESULT_OK && result.getData() != null) {
-            com.emanuelef.remote_capture.model.HttpLogFilterDescriptor descriptor = Utils.getSerializableExtra(result.getData(), HttpLogFilterActivity.FILTER_DESCRIPTOR, com.emanuelef.remote_capture.model.HttpLogFilterDescriptor.class);
+            HttpLogFilterDescriptor descriptor = Utils.getSerializableExtra(result.getData(), HttpLogFilterActivity.FILTER_DESCRIPTOR, HttpLogFilterDescriptor.class);
             if(descriptor != null) {
                 mAdapter.mFilter = descriptor;
                 mAdapter.refreshFilteredItems();
