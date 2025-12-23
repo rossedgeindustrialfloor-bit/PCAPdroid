@@ -265,8 +265,7 @@ public class HttpLogAdapter extends RecyclerView.Adapter<HttpLogAdapter.ViewHold
     }
 
     private boolean matches(HttpRequest req) {
-        // TODO
-        return true;
+        return((mSearch == null) || req.matches(mSearch));
     }
 
     public void setSearch(String text) {
