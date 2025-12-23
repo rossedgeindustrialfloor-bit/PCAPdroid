@@ -32,7 +32,10 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
+import androidx.core.graphics.Insets;
 import androidx.core.view.MenuProvider;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Lifecycle;
 import androidx.preference.PreferenceManager;
@@ -113,6 +116,16 @@ public class HttpPayloadFragment extends Fragment implements MenuProvider {
         mRecyclerView = view.findViewById(R.id.payload);
         EmptyRecyclerView.MyLinearLayoutManager layoutMan = new EmptyRecyclerView.MyLinearLayoutManager(requireContext());
         mRecyclerView.setLayoutManager(layoutMan);
+
+        // Add window insets handling to prevent unwanted padding from propagated insets
+        ViewCompat.setOnApplyWindowInsetsListener(mRecyclerView, (v, windowInsets) -> {
+            Insets insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars() |
+                    WindowInsetsCompat.Type.displayCutout());
+            v.setPadding(0, 0, 0, insets.bottom);
+
+            return WindowInsetsCompat.CONSUMED;
+        });
+        mRecyclerView.setClipToPadding(false);
 
         boolean show_reply = args.getBoolean("show_reply");
         mShowAsPrintable = true;
