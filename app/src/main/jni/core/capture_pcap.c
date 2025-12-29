@@ -28,6 +28,7 @@
 #include "third_party/uthash.h"
 #include "pcap_reader.h"
 #include "ushark_dll.h"
+#include "http2.h"
 
 #define ICMP_TIMEOUT_SEC 5
 #define UDP_TIMEOUT_SEC 30
@@ -407,8 +408,9 @@ static int get_ip_offset(int linktype) {
 
 static plain_data_t g_plain_data = {};
 
-static void handle_tls_data(const unsigned char *plain_data, unsigned int data_len) {
+static void handle_http_data(const unsigned char *plain_data, unsigned int data_len) {
     if (data_len == 0)
+        // TODO handle RST (data_len=0)
         return;
 
     //log_w("<DATA> %s", plain_data);
@@ -433,6 +435,13 @@ static void handle_tls_data(const unsigned char *plain_data, unsigned int data_l
         g_plain_data.n_items++;
     }
 }
+
+static void handle_ushark_http1_data(uint32_t conv_id, const unsigned char *plain_data, size_t data_len) {
+    // HTTP/1 is sequential, so no special handling needed
+    handle_http_data(plain_data, data_len);
+}
+
+/* ******************************************************* */
 
 /* Returns true if packet is valid. If false is returned, the pkt must still be dumped, so a call to
  * pd_dump_packet is required. */
@@ -540,9 +549,9 @@ static bool handle_packet(pcapdroid_t *pd, pcapd_hdr_t *hdr, const char *buffer,
         pcap_hdr.len = pcap_hdr.caplen = pkt.len;
         pcap_hdr.ts = hdr->ts;
 
-        ushark_dissect_tls(pd->pcap.usk,
+        ushark_dissect(pd->pcap.usk,
                            (const unsigned char*) pkt.l3,
-                           &pcap_hdr, handle_tls_data);
+                           &pcap_hdr);
 
         if (g_plain_data.data)
             pinfo.plain_data = &g_plain_data;
@@ -733,6 +742,18 @@ int run_pcap(pcapdroid_t *pd) {
 
             if (ushark_init(pd)) {
                 pd->pcap.usk = ushark_new(PCAPD_DLT_RAW, "");
+
+                // Initialize HTTP2 tracking with output callback
+                http2_init(handle_http_data);
+
+                ushark_data_callbacks_t cbs = {
+                        .on_http1_data = handle_ushark_http1_data,
+                        .on_http2_request = http2_handle_request,
+                        .on_http2_response = http2_handle_response,
+                        .on_http2_reset = http2_handle_reset,
+                };
+                ushark_set_callbacks(pd->pcap.usk, &cbs);
+
                 ushark_set_pref("tls.keylog_file", keylog_path);
             }
         }
@@ -915,6 +936,8 @@ cleanup:
 
         ushark_cleanup();
     }
+
+    http2_cleanup();
 
     return rv;
 }
