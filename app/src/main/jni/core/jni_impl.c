@@ -432,16 +432,16 @@ static void notifyBlacklistsLoaded(pcapdroid_t *pd, bl_status_arr_t *status_arr)
 
 /* ******************************************************* */
 
-static bool dumpPayloadChunk(struct pcapdroid *pd, const pkt_context_t *pctx, const char *dump_data, int dump_size) {
+static bool dumpPayloadChunk(struct pcapdroid *pd, pd_conn_t *conn, bool is_tx, uint64_t ms, const char *dump_data, int dump_size) {
     JNIEnv *env = pd->env;
     bool rv = false;
 
-    if(pctx->data->payload_chunks == NULL) {
+    if(conn->payload_chunks == NULL) {
         // Directly allocating an ArrayList<bytes> rather than creating it afterwards saves us from a data copy.
         // However, this creates a local reference, which is retained until sendConnectionsDump is called.
         // NOTE: Android only allows up to 512 local references.
-        pctx->data->payload_chunks = (*env)->NewObject(env, cls.arraylist, mids.arraylistNew);
-        if((pctx->data->payload_chunks == NULL) || jniCheckException(env))
+        conn->payload_chunks = (*env)->NewObject(env, cls.arraylist, mids.arraylistNew);
+        if((conn->payload_chunks == NULL) || jniCheckException(env))
             return false;
     }
 
@@ -449,12 +449,13 @@ static bool dumpPayloadChunk(struct pcapdroid *pd, const pkt_context_t *pctx, co
     if(jniCheckException(env))
         return false;
 
-    jobject chunk_type = (pctx->data->l7proto == NDPI_PROTOCOL_HTTP) ? enums.chunktype_http : enums.chunktype_raw;
+    jobject chunk_type = (conn->l7proto == NDPI_PROTOCOL_HTTP) ? enums.chunktype_http : enums.chunktype_raw;
 
-    jobject chunk = (*env)->NewObject(env, cls.payload_chunk, mids.payloadChunkInit, barray, chunk_type, pctx->is_tx, pctx->ms);
+    jobject chunk = (*env)->NewObject(env, cls.payload_chunk, mids.payloadChunkInit, barray, chunk_type, is_tx, ms);
     if(chunk && !jniCheckException(env)) {
-        (*env)->SetByteArrayRegion(env, barray, 0, dump_size, (jbyte*) dump_data);
-        rv = (*env)->CallBooleanMethod(env, pctx->data->payload_chunks, mids.arraylistAdd, chunk);
+        if (dump_data) // can be NULL for RST reporting in HTTP/2
+            (*env)->SetByteArrayRegion(env, barray, 0, dump_size, (jbyte*) dump_data);
+        rv = (*env)->CallBooleanMethod(env, conn->payload_chunks, mids.arraylistAdd, chunk);
     }
 
     //log_d("Dump chunk [size=%d]: %d", rv, dump_size);

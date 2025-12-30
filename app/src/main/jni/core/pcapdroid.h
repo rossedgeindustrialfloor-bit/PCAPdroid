@@ -153,8 +153,13 @@ typedef struct {
 
 typedef struct {
     unsigned char *data;
-    unsigned int *lengths;
-    unsigned int tot_length;
+    unsigned int data_length;
+    uint64_t ms;
+    bool is_tx;
+} plain_data_item_t;
+
+typedef struct {
+    plain_data_item_t *items;
     unsigned int n_items;
 } plain_data_t;
 
@@ -184,7 +189,7 @@ typedef struct {
     void (*stop_pcap_dump)(struct pcapdroid *pd);
     void (*notify_service_status)(struct pcapdroid *pd, const char *status);
     void (*notify_blacklists_loaded)(struct pcapdroid *pd, bl_status_arr_t *status_arr);
-    bool (*dump_payload_chunk)(struct pcapdroid *pd, const pkt_context_t *pctx, const char *dump_data, int dump_size);
+    bool (*dump_payload_chunk)(struct pcapdroid *pd, pd_conn_t *pctx, bool is_tx, uint64_t ms, const char *dump_data, int dump_size);
     void (*clear_payload_chunks)(struct pcapdroid *pd, const pkt_context_t *pctx);
 } pd_callbacks_t;
 

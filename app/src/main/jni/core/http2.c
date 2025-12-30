@@ -148,6 +148,7 @@ static void remove_pending_stream(http2_conn_ctx_t *ctx, size_t pos) {
 }
 
 static bool buffer_response(http2_conn_ctx_t *ctx, uint32_t stream_id,
+                           bool is_tx, uint64_t ms,
                            const unsigned char *data, size_t data_len) {
     uint64_t key = make_response_key(ctx->conv_id, stream_id);
 
@@ -169,6 +170,8 @@ static bool buffer_response(http2_conn_ctx_t *ctx, uint32_t stream_id,
 
     resp->key = key;
     resp->data_len = data_len;
+    resp->is_tx = is_tx;
+    resp->ms = ms;
 
     if ((data_len > 0) && data) {
         resp->data = pd_malloc(data_len);
@@ -215,7 +218,7 @@ static void process_pending_responses(http2_conn_ctx_t *ctx) {
 
         // Response found, output it
         if (g_output_fn)
-            g_output_fn(resp->data, resp->data_len);
+            g_output_fn(resp->is_tx, resp->ms, resp->data, resp->data_len);
 
         remove_buffered_response(ctx, first_stream);
         remove_pending_stream(ctx, 0);
@@ -226,7 +229,7 @@ static void process_pending_responses(http2_conn_ctx_t *ctx) {
 // to avoid mixing data of different connections. This is quite limiting in the eviction
 // effectiveness, but necessary. Eviction should not occur on a standard execution, because it will
 // cause missing data
-static void evict_stalled_requests(http2_conn_ctx_t *ctx) {
+static void evict_stalled_requests(http2_conn_ctx_t *ctx, bool is_tx, uint64_t ms) {
     while (g_total_pending_data > MAX_HTTP2_PENDING_SIZE &&
            ctx->pending_count > 0)
     {
@@ -234,10 +237,12 @@ static void evict_stalled_requests(http2_conn_ctx_t *ctx) {
 
         log_w("[HTTP2] Evicting stalled request: conv_id=%u stream_id=%u",
               ctx->conv_id, first_stream);
+
         if (g_output_fn)
             // consider it a RST
-            g_output_fn(NULL, 0);
+            g_output_fn(is_tx, ms, NULL, 0);
 
+        // precondition: there is no pending_response_t for this stream ID
         remove_pending_stream(ctx, 0);
         process_pending_responses(ctx);
     }
@@ -275,7 +280,8 @@ void http2_cleanup(void) {
     g_output_fn = NULL;
 }
 
-void http2_handle_request(uint32_t conv_id, uint32_t stream_id, const unsigned char *plain_data, size_t data_len) {
+void http2_handle_request(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64_t ms,
+                          const unsigned char *plain_data, size_t data_len) {
     // Add to pending queue for response matching
     http2_conn_ctx_t *ctx = get_http2_context(conv_id, true);
     if (!ctx) {
@@ -292,10 +298,11 @@ void http2_handle_request(uint32_t conv_id, uint32_t stream_id, const unsigned c
     // Requests are always output immediately
     // HTTPReassembly.java takes care of associating them to their reply
     if (g_output_fn)
-        g_output_fn(plain_data, data_len);
+        g_output_fn(is_tx, ms, plain_data, data_len);
 }
 
-void http2_handle_response(uint32_t conv_id, uint32_t stream_id, const unsigned char *plain_data, size_t data_len) {
+void http2_handle_response(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64_t ms,
+                           const unsigned char *plain_data, size_t data_len) {
     // Responses need to be output honoring the request ordering,
     // so that HTTPReassembly.java can associate them to the correct Request
     // HTTP/2 multiplexes the connections, so responses will need to be buffered when they are
@@ -317,29 +324,29 @@ void http2_handle_response(uint32_t conv_id, uint32_t stream_id, const unsigned 
     if (pos == 0) {
         // First in queue - output immediately
         if (g_output_fn)
-            g_output_fn(plain_data, data_len);
+            g_output_fn(is_tx, ms, plain_data, data_len);
         remove_pending_stream(ctx, 0);
         process_pending_responses(ctx);
     } else {
         // Not first, buffer it
-        if (!buffer_response(ctx, stream_id, plain_data, data_len)) {
+        if (!buffer_response(ctx, stream_id, is_tx, ms, plain_data, data_len)) {
             log_e("[HTTP2] Failed to buffer response for stream %u (conv_id=%u)", stream_id, conv_id);
             return;
         }
 
         if (g_total_pending_data > MAX_HTTP2_PENDING_SIZE) {
             log_w("[HTTP2] Pending size exceeded (%zu bytes), evicting conv_id=%u", g_total_pending_data, conv_id);
-            evict_stalled_requests(ctx);
+            evict_stalled_requests(ctx, is_tx, ms);
         }
     }
 }
 
-void http2_handle_reset(uint32_t conv_id, uint32_t stream_id) {
+void http2_handle_reset(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64_t ms) {
     http2_conn_ctx_t *ctx = get_http2_context(conv_id, false);
     if (!ctx) {
         // Edge case: RST before request
         if (g_output_fn)
-            g_output_fn(NULL, 0);
+            g_output_fn(is_tx, ms, NULL, 0);
         return;
     }
 
@@ -353,12 +360,12 @@ void http2_handle_reset(uint32_t conv_id, uint32_t stream_id) {
     if (pos == 0) {
         // First in queue - output RST now
         if (g_output_fn)
-            g_output_fn(NULL, 0);
+            g_output_fn(is_tx, ms, NULL, 0);
         remove_pending_stream(ctx, 0);
         process_pending_responses(ctx);
     } else {
         // Buffer empty response
-        if (!buffer_response(ctx, stream_id, NULL, 0))
+        if (!buffer_response(ctx, stream_id, is_tx, ms, NULL, 0))
             // e.g. HTTP req -> HTTP res -> RST (client)
             log_d("[HTTP2] Discarding RST for stream %u (conv_id=%u)", stream_id, conv_id);
     }

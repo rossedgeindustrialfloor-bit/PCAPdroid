@@ -37,6 +37,8 @@ typedef struct pending_response_t {
     uint64_t key;                  // Hash key: (conv_id << 32) | stream_id
     unsigned char *data;           // Response data (NULL for RST)
     size_t data_len;
+    bool is_tx;
+    uint64_t ms;
     UT_hash_handle hh;
 } pending_response_t;
 
@@ -60,7 +62,7 @@ typedef struct http2_context_map_t {
 /* ******************************************************* */
 
 // Callback for outputting decrypted data
-typedef void (*http2_data_output_fn)(const unsigned char *plain_data, unsigned int data_len);
+typedef void (*http2_data_output_fn)(bool is_tx, uint64_t ms, const unsigned char *plain_data, unsigned int data_len);
 
 // Initialize HTTP2 tracking with output callback
 void http2_init(http2_data_output_fn output_fn);
@@ -69,8 +71,10 @@ void http2_init(http2_data_output_fn output_fn);
 void http2_cleanup(void);
 
 // HTTP2 callback handlers
-void http2_handle_request(uint32_t conv_id, uint32_t stream_id, const unsigned char *plain_data, size_t data_len);
-void http2_handle_response(uint32_t conv_id, uint32_t stream_id, const unsigned char *plain_data, size_t data_len);
-void http2_handle_reset(uint32_t conv_id, uint32_t stream_id);
+void http2_handle_request(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64_t ms,
+                          const unsigned char *plain_data, size_t data_len);
+void http2_handle_response(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64_t ms,
+                           const unsigned char *plain_data, size_t data_len);
+void http2_handle_reset(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64_t ms);
 
 #endif // PCAPDROID_HTTP2_H
