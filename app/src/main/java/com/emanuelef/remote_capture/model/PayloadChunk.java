@@ -37,6 +37,7 @@ public class PayloadChunk implements Serializable {
     public String httpQuery = "";
     public String httpContentType = "";
     public int httpBodyLength = 0;
+    private boolean mHttpRst = false;
 
     // Serializable need in ConnectionPayload fragment
     public enum ChunkType implements Serializable {
@@ -63,5 +64,15 @@ public class PayloadChunk implements Serializable {
 
     public PayloadChunk withPayload(byte[] the_payload) {
         return new PayloadChunk(the_payload, type, is_sent, timestamp);
+    }
+
+    public void setHttpRst() {
+        mHttpRst = true;
+    }
+
+    public boolean isHttp2Rst() {
+        // http2.c uses a 0 length payload to indicate HTTP2 reset messages
+        return mHttpRst || ((type == PayloadChunk.ChunkType.HTTP) &&
+                (payload != null) && (payload.length == 0));
     }
 }

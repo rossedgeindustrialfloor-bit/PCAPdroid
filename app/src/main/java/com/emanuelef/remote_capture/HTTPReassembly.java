@@ -158,6 +158,8 @@ public class HTTPReassembly {
                             }
 
                             mFirstChunk.httpPath = path;
+
+                            //log_d(mFirstChunk.httpMethod + " " + mFirstChunk.httpPath);
                         }
                     } else if (line.startsWith("HTTP/")) {
                         int first_space = line.indexOf(' ');
@@ -255,6 +257,12 @@ public class HTTPReassembly {
         if(!mReassembleChunks)
             mReadingHeaders = false;
 
+        boolean httpRst = false;
+        if (mReadingHeaders && chunk.isHttp2Rst()) {
+            mReadingHeaders = false;
+            httpRst = true;
+        }
+
         if(!mReadingHeaders) {
             // Reading HTTP body
             int body_size = payload.length - body_start;
@@ -349,6 +357,11 @@ public class HTTPReassembly {
                     to_add.httpQuery = mFirstChunk.httpQuery;
                     to_add.httpBodyLength = mBodySize;
 
+                    if (httpRst)
+                        // this is necessary when mDumpPayload=false, to ensure that
+                        // the chunk is marked as HTTP RST
+                        to_add.setHttpRst();
+
                     // Fix the chunk type after upgrade when read from ushark
                     if (mSwitchedProtocols && (to_add.type == PayloadChunk.ChunkType.HTTP)) {
                         to_add.type = mWebsocketUpgrade ? PayloadChunk.ChunkType.WEBSOCKET : PayloadChunk.ChunkType.RAW;
@@ -356,6 +369,11 @@ public class HTTPReassembly {
                         // also update the original chunk, so that connection details tabs are correct
                         chunk.type = to_add.type;
                     }
+                }
+
+                if ((to_add.type == PayloadChunk.ChunkType.HTTP)) {
+                    Log.d(TAG, "Reassembled HTTP " +
+                            (to_add.isHttp2Rst() ? "RST" : (to_add.is_sent ? "request" : "response")));
                 }
 
                 mListener.onChunkReassembled(to_add);

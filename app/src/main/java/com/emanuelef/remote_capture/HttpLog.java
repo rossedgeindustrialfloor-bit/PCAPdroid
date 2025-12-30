@@ -45,6 +45,7 @@ public class HttpLog {
         public HttpReply reply;
         public int bodyLength;
         public long timestamp;
+        public boolean httpRst = false;
         private int idx = -1;
 
         public HttpRequest(ConnectionDescriptor conn, int firstChunkPos) {
