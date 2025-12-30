@@ -215,8 +215,8 @@ u_char* next_pcap_record(pcap_rec_t *rec) {
 /* ******************************************************* */
 
 /* Dumps all the payload chunks into a linked list. The linked list is accessible via
- * (payload_chunk_t*)data->payload_chunks */
-bool dump_cb_payload_chunk(pcapdroid_t *pd, const pkt_context_t *pctx, const char *dump_data, int dump_size) {
+ * (payload_chunk_t*)conn->payload_chunks */
+bool dump_cb_payload_chunk(pcapdroid_t *pd, pd_conn_t *conn, bool is_tx, uint64_t ms, const char *dump_data, int dump_size) {
   payload_chunk_t *chunk = calloc(1, sizeof(payload_chunk_t));
   assert(chunk != NULL);
   chunk->payload = (u_char*)malloc(dump_size);
@@ -224,10 +224,10 @@ bool dump_cb_payload_chunk(pcapdroid_t *pd, const pkt_context_t *pctx, const cha
 
   memcpy(chunk->payload, dump_data, dump_size);
   chunk->size = dump_size;
-  chunk->is_tx = pctx->is_tx;
+  chunk->is_tx = is_tx;
 
   // append to the linked list
-  payload_chunk_t *last = (payload_chunk_t*)pctx->data->payload_chunks;
+  payload_chunk_t *last = (payload_chunk_t*) conn->payload_chunks;
   if(last) {
     while(last->next)
       last = last->next;
@@ -237,7 +237,7 @@ bool dump_cb_payload_chunk(pcapdroid_t *pd, const pkt_context_t *pctx, const cha
     num_chunks_lists++;
     chunks_lists_heads = realloc(chunks_lists_heads, num_chunks_lists * sizeof(void*));
     chunks_lists_heads[num_chunks_lists - 1] = chunk;
-    pctx->data->payload_chunks = chunk;
+    conn->payload_chunks = chunk;
   }
 
   return true;
