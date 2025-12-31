@@ -13,7 +13,7 @@ static ushark_t* (*sk_new)(int, const char *);
 static void (*sk_set_pref)(const char *, const char *);
 static void (*sk_set_callbacks)(ushark_t *, const ushark_data_callbacks_t *);
 static void (*sk_destroy)(ushark_t*);
-static void (*sk_dissect)(ushark_t*, const unsigned char *, const struct pcap_pkthdr *);
+static const char* (*sk_dissect)(ushark_t*, const unsigned char *, const struct pcap_pkthdr *);
 
 bool ushark_init(pcapdroid_t *pd) {
     assert(!sk_dll);
@@ -61,6 +61,7 @@ bool ushark_init(pcapdroid_t *pd) {
 
 void ushark_cleanup() {
     assert(sk_dll);
+
     sk_cleanup();
 
     sk_init = NULL;
@@ -78,25 +79,30 @@ void ushark_cleanup() {
 
 ushark_t* ushark_new(int pcap_encap, const char *dfilter) {
     assert(sk_new);
+
     return sk_new(pcap_encap, dfilter);
 }
 
 void ushark_destroy(ushark_t *sk) {
     assert(sk_destroy);
-    return sk_destroy(sk);
+
+    sk_destroy(sk);
 }
 
 void ushark_set_pref(const char *name, const char *val) {
     assert(sk_set_pref);
-    return sk_set_pref(name, val);
+
+    sk_set_pref(name, val);
 }
 
 void ushark_set_callbacks(ushark_t *sk, const ushark_data_callbacks_t *cbs) {
     assert(sk_set_callbacks);
-    return sk_set_callbacks(sk, cbs);
+
+    sk_set_callbacks(sk, cbs);
 }
 
-void ushark_dissect(ushark_t *sk, const unsigned char *buf, const struct pcap_pkthdr *hdr) {
+const char* ushark_dissect(ushark_t *sk, const unsigned char *buf, const struct pcap_pkthdr *hdr) {
     assert(sk_dissect);
+
     return sk_dissect(sk, buf, hdr);
 }

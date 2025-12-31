@@ -1,0 +1,3286 @@
+[HTTP2.DATA tx:1 ts:1764189277841 len:704 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/localirep/img/rep-roma/2025/11/26/084417285-e4b61fb0-93dc-49b9-81d2-27d001c49ac7.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277841 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/005154256-3eedb10a-48ff-4bbf-94c8-f169fb256ea0.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277841 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/172123137-fdbea426-e4f8-459e-9003-6af149636f64.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277841 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/181045866-c8fc5b41-cb2c-4115-b694-ca0bc52c31ef.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277841 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/112228925-1af67a73-5fea-4fc3-97d2-cde89ecbd2ad.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277841 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/232651305-c3dc7dca-f23d-49d3-b45a-dfd710742a89.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277841 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/180018951-b73db20a-722b-473c-9c8a-b6e3f21344ad.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/165822292-27103236-eade-49d2-994f-16b26ea3f253.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/012156925-3745468a-ad47-4017-aab5-1c07cdfc37e4.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/110639587-1ff80fca-1cb9-4c09-97a1-19e16c9fa4ff.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/125229646-f4a0016d-9546-4836-be48-abf983fb61c3.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/072951566-fad4343e-7c1b-41d9-a98f-fe5278f98e0c.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/08/28/104116279-0fc65489-8670-4135-b7ee-e580d5d9db13.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/220129464-096c3a10-30c9-4066-ac2b-1cfb44cdc76f.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/012231644-582577ed-41af-4c61-b2c5-69dd5c43940f.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/07/163726171-f4998f32-5d74-458c-b775-e9d5aa210e41.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/03/13/132921970-eee3355f-47e2-4a79-ac2b-4b2821c236ea.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/18/185432785-c8009d22-ea03-41ee-80ee-3cad278c2d73.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/17/193851462-f9a6b95c-1e5e-45a3-8021-cde223c74a2e.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/01/13/192056832-950ef386-6a7d-4fba-81d0-76c9b6271f06.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/10/06/174850460-885b67c7-a2b5-4634-b381-be3d456cda96.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/153422665-e57fef6d-c881-42dc-bcde-4732956c510e.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/02/14/165709164-1e7dbfac-75e9-4d5c-83a0-769d0921a4bd.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/011942438-30573197-c988-43ef-bc73-029a74ee7d91.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277842 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/125119461-1e0d92d5-7da9-4381-b869-e7ca2bcff6da.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/08/26/165820162-72c5b163-1283-45cb-a9db-2999caf18df5.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/02/13/220909524-212cf707-2695-4546-a896-3630518eb1ef.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/24/203549577-d285e478-9f9a-43ef-b00e-cb8127957aa8.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/210456059-814c8899-2137-434c-89f1-eff1a7a6e0df.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/25/062420039-8dd3f723-6075-4c8c-899c-fd5b54178495.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/164902852-3b831e31-fd1c-4810-85a2-1e917f6521f4.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/02/03/171225614-9ade03eb-b785-4161-9a4d-7b7ec9027216.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/230326073-4aceea25-1946-467d-a7d0-becdf9cfef99.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/175823905-dd8c8a83-1923-448f-991a-c6813351539d.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/31/083825403-5b5918c8-fd0a-4077-ab99-ca1935212f43.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/25/154032964-2b49237f-883c-4ea4-bc89-de4835f68b6e.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/101802220-b4ce73de-77a1-4f6e-aeb1-75dbde13c35c.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/104502004-734c2339-680d-4874-836d-baf8aba3647e.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/09/16/150749137-a3248b2d-6e89-4656-a59e-a903c52399bf.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/200215000-e1e49f74-3aa0-4f75-b2b6-e84d62e3c3fa.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/175842169-67179e97-b278-43eb-aeb8-42ed6dc840fc.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/02/061003965-f99fd226-73b0-4328-8ede-664bd2f4df8d.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/171923061-4835d09e-af3a-4061-a4d5-3bfb448ae0cd.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/125533702-3c510618-52fc-44c7-b2e3-bb928074ed5e.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/190732042-0867e11a-a312-45d5-ac0f-666334cd1ca6.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/23/194752984-f7349b46-446b-4e0d-aeba-76762c5d0584.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/082952874-54cadb34-6189-42fb-b3e6-62bab3ee60d8.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/083039221-6e73d3da-760b-410b-927e-de7be0e11de8.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/232355401-d585aaf7-531b-4bb7-8ce2-4d3dd42b7d83.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/29/120213769-6247e569-d0f7-4058-9041-d21086d78c21.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/111552193-fcb500bc-4912-4407-89b3-d46262274975.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/115141154-d9214f28-92fa-4fc0-a92b-1cfaa475725c.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/24/122729206-64eba028-9df3-4f77-b28b-e46dbf088e57.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/21/125431127-c5190e7a-b86b-4bdb-b47a-dc99346c4189.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/112346491-f2b83db0-28a4-4c5a-b618-548e7ec59cd6.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/20/042508898-fdce6576-b10e-4241-ab55-e246be9b1c00.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/220827828-1781791c-8452-4ba6-8b22-25a05923b605.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/26/090448351-1bfb3f5e-7037-460e-ab45-2327067a1ede.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/20/222622027-403c4a76-0aef-48c8-b7ee-2e5f180ed810.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/23/041803592-9e8efbe4-b52f-4388-a19c-849a25fcbfe2.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/25/151621327-fe4be2cc-f256-44ca-9140-bb749eae5a1a.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/08/26/165716389-016cddfb-4d9d-4eff-b6a2-7f1c0d9fea86.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/20/124531908-9eab8563-dc51-463d-a032-fc5cf51b178f.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/175630916-9cda9248-d7ab-45bc-8822-47cd2e209ae9.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/122008869-4ae8d037-4c13-4b01-9ef5-6b27f15e13e4.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/143712104-4a57adc8-8491-49b4-aed9-f63ae0341c4d.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/29/162347094-cd9133c4-ef92-41a1-943a-97ed4c6efd03.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/153516214-7244f7af-6dc6-4b57-b931-76f594fcebe1.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/09/17/084021773-f56ecbf7-9caa-406c-8d70-eba3344763f2.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/125902824-fa40735b-0000-46a6-8a28-28a745e96645.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/115234477-e7419851-8aca-4d86-8f5d-36929386333f.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/065928437-f5594ee2-d766-4d6c-8a25-90de270c9c1a.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/123538587-86d86659-4562-43aa-9b2a-b05b1fef5149.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/172651290-787df4a0-0f7b-40fd-8eae-58b52e92e6af.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/040913617-bdda050e-775e-4458-be3e-5cd1bd8365f1.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/01/090609383-919e1570-fcd0-4e26-afe1-434827ecc808.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/180712943-5505fcc0-02c0-42e2-aaf0-6780d128872b.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/092310301-f8526de9-1563-4382-a0a6-73b370b6ca24.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/01/14/072633191-4bb14152-7455-44ce-8166-9be6bf639aee.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/09/29/165159268-6f4a0f54-36a9-43b4-88d7-9e183e0e58c7.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/103601718-b6190732-283f-44be-ab58-f3c5cadf0cde.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/02/24/083236243-58ff62b2-fe0d-4c1e-aee9-c3f70222578a.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/105709636-69203be2-bfca-4866-bc03-0123953a7bfb.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/153619134-a27dec1a-39f4-4271-b461-4c52e6ad87bf.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/153329257-7e60f0bb-0344-4c5e-8d5b-800dacffab70.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/014237931-578d8f00-4276-4fa2-a6e7-9dfeb7e5323d.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/09/29/165127105-748f3f44-7c14-4128-b0f1-879f6bebc7ab.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/18/072020302-e7e83fb1-a395-4966-aed9-c5e28dbfd0a9.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/162258880-e7f5c6b0-802f-4df0-9bb4-24ece87c35fe.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/140912418-01039e0b-027d-4c9d-9da0-dcebd6906459.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:706 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/localirep/img/rep-milano/2025/11/26/173758489-bdea8eb3-a326-41d8-8f0f-1c6976e82e51.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/144917884-1198c38d-aa2c-4cf6-998c-ddc8bba73c89.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/195343114-d7cd8226-8e6d-4c84-9a38-68c91eb838e8.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/195349110-5d29bc0c-e6d1-4225-a7e5-19901f9375fa.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/195405631-d04145a0-3f26-4494-ba77-dd1f991c66b2.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/155930613-7f153e4e-dd62-41bf-b9f9-936c9630bcfd.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/20/115250133-c2ba431c-2c6d-4875-83fc-519aa093055b.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/123018458-8749ed60-09b7-4435-a628-27f119adcf0d.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/185739867-f8048435-05be-4e43-a6ce-ec0aa933d837.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189277843 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/133946517-5485f935-4b6c-4a12-87c7-7da308d896ae.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189278022 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/24/102159098-01477b18-87f1-45f6-be24-073d4d244071.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278033 len:22516 body:<524946461e550000..7424e9c7da9b0000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "10bb39f9b8f112b72242bb5f6b19961b33d0ddfb"
+expires: Thu, 27 Nov 2025 07:52:45 GMT
+content-length: 21798
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 07:52:45 GMT
+x-kw-expires: Thu, 27 Nov 2025 07:52:45 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278022 len:16268 body:<52494646b63c0000..20d6f8e1e4800000>]
+-----------------------
+HTTP/2.0 200
+etag: "956e2380c9ca48711d6aee3a6308912e9b2ef9ab"
+expires: Wed, 26 Nov 2025 23:53:02 GMT
+content-type: image/webp
+content-length: 15550
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Tue, 25 Nov 2025 23:53:02 GMT
+x-kw-expires: Wed, 26 Nov 2025 23:53:02 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189278034 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/10/05/232016325-c232efe9-8029-4e2a-ac68-db02928a8359.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189278035 len:696 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/contenthub/img/2025/11/24/104712573-5220f3d4-5c51-450b-8781-116965a86d65.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189278166 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/195352723-c17023ca-4343-4501-b446-fac85ede0066.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189278237 len:695 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/25/104439305-555db8b2-afac-4b38-91ab-38c8d0161622.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278970 len:21042 body:<524946465c4f0000..99b5a8d76f1c0000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "e6b8ea07ccd85b947e0f51b33607204b46e30d83"
+expires: Thu, 27 Nov 2025 16:22:22 GMT
+content-length: 20324
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 16:22:22 GMT
+x-kw-expires: Thu, 27 Nov 2025 16:22:22 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189279139 len:797 body:<>]
+-----------------------
+GET https://www.repstatic.it/content/nazionale/img/2025/11/26/210550711-bf1606a7-720d-470c-ac9d-12b046d967b1.jpg?webp HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/esteri/2025/11/26/news/casa_bianca_militari_spari_washington-425006850/?ref=RHLF-BG-P1-S1-T1-k245
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: u=2, i
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189279358 len:704 body:<>]
+-----------------------
+GET https://www.repstatic.it/minify/sites/repubblica/nazionale/2020-v1/config.cache.php?name=detail_js HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: */*
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: script
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/esteri/2025/11/26/news/casa_bianca_militari_spari_washington-425006850/?ref=RHLF-BG-P1-S1-T1-k245
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189279358 len:722 body:<>]
+-----------------------
+GET https://www.repstatic.it/minify/sites/repubblica/video/config_video_2018_vanilla.cache.php?name=video_js&kwait=false HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: */*
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: script
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/esteri/2025/11/26/news/casa_bianca_militari_spari_washington-425006850/?ref=RHLF-BG-P1-S1-T1-k245
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278034 len:23072 body:<524946464a570000..40f51399b0000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "018c02ee59ff0b457dede297e8faa17e25725f38"
+expires: Wed, 26 Nov 2025 23:03:41 GMT
+content-length: 22354
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Tue, 25 Nov 2025 23:03:41 GMT
+x-kw-expires: Wed, 26 Nov 2025 23:03:41 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278590 len:35788 body:<52494646f6880000..f2691aa8c2b80000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "ea1f0ccfa8047d023c1d063ec185e9a8bf575932"
+expires: Thu, 27 Nov 2025 00:22:56 GMT
+content-length: 35070
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 00:22:55 GMT
+x-kw-expires: Thu, 27 Nov 2025 00:22:56 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278838 len:8355 body:<52494646ce1d0000..6179d08221800000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "8c6e30810e3c2b424cf5a2d575d08af57f17d619"
+expires: Thu, 27 Nov 2025 10:07:35 GMT
+content-length: 7638
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 10:07:35 GMT
+x-kw-expires: Thu, 27 Nov 2025 10:07:35 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278796 len:16748 body:<52494646963e0000..c74cf00f16000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "64fd4ae94b9b88b85c4a1648d57b0ea147e48768"
+expires: Thu, 27 Nov 2025 13:41:53 GMT
+content-length: 16030
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 13:41:53 GMT
+x-kw-expires: Thu, 27 Nov 2025 13:41:53 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278414 len:22854 body:<5249464670560000..747d15bee6400000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "c73aca306b2a1016f9b8415411fe8511f680ca54"
+expires: Wed, 26 Nov 2025 21:02:09 GMT
+content-length: 22136
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Tue, 25 Nov 2025 21:02:09 GMT
+x-kw-expires: Wed, 26 Nov 2025 21:02:09 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:37 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278927 len:15258 body:<52494646c4380000..2b609aa36703c000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "16a552a7f728a9b5763f46d710b7b403b073a329"
+expires: Thu, 27 Nov 2025 06:10:04 GMT
+content-length: 14540
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 06:10:04 GMT
+x-kw-expires: Thu, 27 Nov 2025 06:10:04 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279218 len:26236 body:<52494646a6630000..e3e34fb400000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "19b10c8690edbff60b765ae9280676e3a4c0fdf4"
+expires: Thu, 27 Nov 2025 08:43:13 GMT
+content-length: 25518
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 08:43:13 GMT
+x-kw-expires: Thu, 27 Nov 2025 08:43:13 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278836 len:17130 body:<5249464614400000..633db4fa096f0000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "d2f05040685e88279ed9b993b04f17593bebe4e6"
+expires: Thu, 27 Nov 2025 05:36:55 GMT
+content-length: 16412
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 05:36:55 GMT
+x-kw-expires: Thu, 27 Nov 2025 05:36:55 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278928 len:9119 body:<52494646ca200000..2dda9825f6940000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "bf8b30747e79f0e7f726bdfbc1fa686448ad95cc"
+expires: Thu, 27 Nov 2025 17:01:16 GMT
+content-length: 8402
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 17:01:15 GMT
+x-kw-expires: Thu, 27 Nov 2025 17:01:16 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278455 len:26410 body:<5249464654640000..78f8088791400000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "568e94c9dca5b3d2cc63e6b369ce07e69bccb608"
+expires: Thu, 27 Nov 2025 09:47:19 GMT
+content-length: 25692
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 09:47:18 GMT
+x-kw-expires: Thu, 27 Nov 2025 09:47:19 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278312 len:20756 body:<524946463e4e0000..1ff4440055d90000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "9e229e833c27c666ee149e8db89c63455031b823"
+expires: Thu, 27 Nov 2025 00:47:10 GMT
+content-length: 20038
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 00:47:10 GMT
+x-kw-expires: Thu, 27 Nov 2025 00:47:10 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279165 len:18282 body:<5249464694440000..f10fbd67d7800000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "93389ab031339e72ec48a7c17869d231d6d225da"
+expires: Thu, 27 Nov 2025 16:46:13 GMT
+content-length: 17564
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 16:46:12 GMT
+x-kw-expires: Thu, 27 Nov 2025 16:46:13 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278976 len:7057 body:<52494646bc180000..34c8e59465080000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "3cbdd7c2be64126dc2af6ad86507b8d3edf349bf"
+expires: Wed, 26 Nov 2025 21:53:56 GMT
+content-length: 6340
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Tue, 25 Nov 2025 21:53:56 GMT
+x-kw-expires: Wed, 26 Nov 2025 21:53:56 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278272 len:11360 body:<524946468a290000..543a7eab64400000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "977bdf8c1af7c7858873f2bf6723512895d89831"
+expires: Thu, 27 Nov 2025 11:01:56 GMT
+content-length: 10642
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 11:01:56 GMT
+x-kw-expires: Thu, 27 Nov 2025 11:01:56 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278515 len:9075 body:<524946469e200000..6ef7dfb354000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "273ec3ae6e70248a8194d8ebf5c8e3d0077e3211"
+expires: Thu, 27 Nov 2025 03:06:41 GMT
+content-length: 8358
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 03:06:41 GMT
+x-kw-expires: Thu, 27 Nov 2025 03:06:41 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278237 len:20648 body:<52494646d24d0000..8e3ca80087f20000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "657348eee1d183f33c2c00613f62e6f16b89e2e5"
+expires: Thu, 27 Nov 2025 11:31:22 GMT
+content-length: 19930
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 11:31:22 GMT
+x-kw-expires: Thu, 27 Nov 2025 11:31:22 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279167 len:16176 body:<524946465a3c0000..12a34cfa12100000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "633b9039ed618814d3962da0cee1b8dd28a9e50d"
+expires: Wed, 26 Nov 2025 23:08:39 GMT
+content-length: 15458
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Tue, 25 Nov 2025 23:08:39 GMT
+x-kw-expires: Wed, 26 Nov 2025 23:08:39 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279330 len:11494 body:<52494646102a0000..b713ab0df0000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "5b9bb7badf08e32301f0601b375643e45ac9f35a"
+expires: Thu, 27 Nov 2025 15:42:46 GMT
+content-length: 10776
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 15:42:45 GMT
+x-kw-expires: Thu, 27 Nov 2025 15:42:46 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278970 len:5205 body:<5249464680110000..3e252a1ba131c000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "22cd2540cebb72a00d251c706846ff85cb85025a"
+expires: Thu, 27 Nov 2025 07:02:30 GMT
+content-length: 4488
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 07:02:30 GMT
+x-kw-expires: Thu, 27 Nov 2025 07:02:30 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278166 len:29498 body:<5249464664700000..dfc7f10448c00000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "c458f6ef121718490dc70faad3b035190aa22b5e"
+expires: Thu, 27 Nov 2025 05:40:39 GMT
+content-length: 28780
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 05:40:39 GMT
+x-kw-expires: Thu, 27 Nov 2025 05:40:39 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278721 len:11298 body:<524946464c290000..8a2d6a8dbc800000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "ef45ed4d1c120ee7fe3554dfae10604a4aed90cb"
+expires: Wed, 26 Nov 2025 23:43:47 GMT
+content-length: 10580
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Tue, 25 Nov 2025 23:43:46 GMT
+x-kw-expires: Wed, 26 Nov 2025 23:43:47 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278275 len:16618 body:<52494646143e0000..c9aff1996f4b5000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "bbd476cd8c47a8d2d7c38a298950f942b1c2e23b"
+expires: Thu, 27 Nov 2025 14:35:31 GMT
+content-length: 15900
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 14:35:31 GMT
+x-kw-expires: Thu, 27 Nov 2025 14:35:31 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278519 len:25862 body:<5249464630620000..12d258bd14b1d000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "edd2a3b14520ea3670890f85513d01d50cfc44d9"
+expires: Thu, 27 Nov 2025 10:21:51 GMT
+content-length: 25144
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 10:21:51 GMT
+x-kw-expires: Thu, 27 Nov 2025 10:21:51 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278314 len:28786 body:<524946469c6d0000..9548fb2c70000000>]
+-----------------------
+HTTP/2.0 200
+etag: "0b63de58b94ae8f7f9a269992d8d60b10bc872ac"
+expires: Thu, 27 Nov 2025 12:41:40 GMT
+content-type: image/webp
+content-length: 28068
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 12:41:40 GMT
+x-kw-expires: Thu, 27 Nov 2025 12:41:40 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278875 len:11298 body:<524946464c290000..15a0023a1f440000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "254cb83754376278ce4a041aa3407112b9237828"
+expires: Thu, 27 Nov 2025 05:59:44 GMT
+content-length: 10580
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 05:59:43 GMT
+x-kw-expires: Thu, 27 Nov 2025 05:59:44 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279335 len:32114 body:<524946469c7a0000..662d5cc10cb00000>]
+-----------------------
+HTTP/2.0 200
+etag: "395c8a1a27cb7f6bef52d8cad68228cdc3843b96"
+expires: Thu, 27 Nov 2025 03:09:59 GMT
+content-type: image/webp
+content-length: 31396
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 03:09:59 GMT
+x-kw-expires: Thu, 27 Nov 2025 03:09:59 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278347 len:15824 body:<52494646fa3a0000..d654cb5118a80000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "f8dfe3f64b09eb2393a287c4ec3a86e1fafb5985"
+expires: Thu, 27 Nov 2025 17:08:16 GMT
+content-length: 15106
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 17:08:15 GMT
+x-kw-expires: Thu, 27 Nov 2025 17:08:16 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278723 len:14680 body:<5249464682360000..48f281cfb9200000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "8c7beefbf676deb777515e2b6d01948dd349661c"
+expires: Thu, 27 Nov 2025 04:29:22 GMT
+content-length: 13962
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 04:29:22 GMT
+x-kw-expires: Thu, 27 Nov 2025 04:29:22 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279271 len:26550 body:<52494646e0640000..7a2f400000000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "9bd34eb0397adced1911a2efb3aeb18f23d8ecf8"
+expires: Thu, 27 Nov 2025 14:36:33 GMT
+content-length: 25832
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 14:36:32 GMT
+x-kw-expires: Thu, 27 Nov 2025 14:36:33 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278520 len:4351 body:<524946462a0e0000..e47c32adc0000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "68aba3c442db4f095037aee3d64eb7bc264d1d2e"
+expires: Thu, 27 Nov 2025 08:18:09 GMT
+content-length: 3634
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 08:18:09 GMT
+x-kw-expires: Thu, 27 Nov 2025 08:18:09 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279167 len:5489 body:<524946469c120000..a0905337ac000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "672ce0c3a31b89cb42dcb1d54eae0dd336fa467d"
+expires: Thu, 27 Nov 2025 02:49:23 GMT
+content-length: 4772
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 02:49:22 GMT
+x-kw-expires: Thu, 27 Nov 2025 02:49:23 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278881 len:14280 body:<52494646f2340000..2877019e4c000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "6daca42fff4624c5773629a8f5becd1f6bb9c63b"
+expires: Thu, 27 Nov 2025 03:48:14 GMT
+content-length: 13562
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 03:48:14 GMT
+x-kw-expires: Thu, 27 Nov 2025 03:48:14 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278416 len:14640 body:<524946465a360000..84d508bc11b60000>]
+-----------------------
+HTTP/2.0 200
+etag: "972804577673388f2dacd8ae05a6c4b731de5a1b"
+expires: Thu, 27 Nov 2025 18:54:27 GMT
+content-type: image/webp
+content-length: 13922
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 18:54:27 GMT
+x-kw-expires: Thu, 27 Nov 2025 18:54:27 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279222 len:14780 body:<52494646e6360000..b33a682531000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "10c4589e26d090b26ea23d2d2c39b42966598475"
+expires: Thu, 27 Nov 2025 15:03:14 GMT
+content-length: 14062
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 15:03:14 GMT
+x-kw-expires: Thu, 27 Nov 2025 15:03:14 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278930 len:16344 body:<52494646023d0000..1bcbdb91bb429000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "f940f7929bc03ef6a2f6e373e71b88332759d150"
+expires: Thu, 27 Nov 2025 07:43:23 GMT
+content-length: 15626
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 07:43:22 GMT
+x-kw-expires: Thu, 27 Nov 2025 07:43:23 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278838 len:9795 body:<524946466e230000..e722bb0606000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "190bce2c8d6f901a9ff31b08c4a0dedf4ed5fef6"
+expires: Thu, 27 Nov 2025 14:45:29 GMT
+content-length: 9078
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 14:45:29 GMT
+x-kw-expires: Thu, 27 Nov 2025 14:45:29 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279366]
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278456 len:7727 body:<524946465a1b0000..9038f255b0000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "e86ce25cb064e46ba3b39c5259e998917d1c8979"
+expires: Thu, 27 Nov 2025 09:53:15 GMT
+content-length: 7010
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 09:53:15 GMT
+x-kw-expires: Thu, 27 Nov 2025 09:53:15 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279169 len:60978 body:<524946465ceb0000..5aad848558000000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "9bc183ec29a357247e936b5f67e14073c1bee862"
+expires: Thu, 27 Nov 2025 20:27:22 GMT
+content-length: 60260
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 20:27:21 GMT
+x-kw-expires: Thu, 27 Nov 2025 20:27:22 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189278869 len:23282 body:<524946461c580000..6c4fee91f5145000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "3ee3e8e86fce4addba8b0cda6c307cf61b33f294"
+expires: Thu, 27 Nov 2025 09:53:32 GMT
+content-length: 22564
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 09:53:32 GMT
+x-kw-expires: Thu, 27 Nov 2025 09:53:32 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:38 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279388]
+-----------------------
+[HTTP2.RST tx:1 ts:1764189279389]
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189279410 len:669 body:<>]
+-----------------------
+GET https://www.repstatic.it/cless/main/nazionale/2020-v1/img/common/icon/logoR_premium.svg HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: image
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+priority: i
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279460 len:35032 body:<5249464602860000..bc8c165d21688000>]
+-----------------------
+HTTP/2.0 200
+content-type: image/webp
+etag: "85cac066bd584bb0921f5cc2f7284a663aedaba5"
+expires: Thu, 27 Nov 2025 20:06:11 GMT
+content-length: 34314
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 20:06:11 GMT
+x-kw-expires: Thu, 27 Nov 2025 20:06:11 GMT
+cache-control: max-age=86400,public, s-maxage=86400
+smaxagedone: yup
+x-kw-cache-control: max-age=86400,public, s-maxage=86400
+accept-ranges: bytes
+date: Wed, 26 Nov 2025 20:34:39 GMT
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279460 len:2222 body:<1f8b080000000000..c474e293a50e0000>]
+-----------------------
+HTTP/2.0 200
+expires: Wed, 26 Nov 2025 20:38:58 GMT
+content-encoding: gzip
+content-type: application/javascript; charset=UTF-8
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+strict-transport-security: max-age=7200
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 20:28:58 GMT
+x-kw-expires: Wed, 26 Nov 2025 20:38:58 GMT
+cache-control: public, max-age=600, s-maxage=60
+smaxagedone: yup
+x-kw-cache-control: public, max-age=600, s-maxage=60
+accept-ranges: bytes
+content-length: 1448
+date: Wed, 26 Nov 2025 20:34:39 GMT
+vary: Accept-Encoding
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279507 len:14287 body:<1f8b080000000000..f1b1a64051fc0000>]
+-----------------------
+HTTP/2.0 200
+expires: Wed, 26 Nov 2025 20:33:25 GMT
+content-encoding: gzip
+content-type: application/javascript; charset=UTF-8
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+strict-transport-security: max-age=7200
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 20:23:24 GMT
+x-kw-expires: Wed, 26 Nov 2025 20:33:25 GMT
+cache-control: public, max-age=600, s-maxage=60
+smaxagedone: yup
+x-kw-cache-control: public, max-age=600, s-maxage=60
+accept-ranges: bytes
+content-length: 13512
+date: Wed, 26 Nov 2025 20:34:39 GMT
+vary: Accept-Encoding
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189279494 len:1211 body:<1f8b080000000000..7e544060fa020000>]
+-----------------------
+HTTP/2.0 200
+expires: Wed, 26 Nov 2025 20:20:56 GMT
+content-encoding: gzip
+content-type: image/svg+xml
+x-cacheable: YES
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+strict-transport-security: max-age=7200
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 19:20:56 GMT
+x-kw-expires: Wed, 26 Nov 2025 20:20:56 GMT
+cache-control: max-age=3600, s-maxage=3600
+smaxagedone: yup
+x-kw-cache-control: max-age=3600, s-maxage=3600
+accept-ranges: bytes
+content-length: 472
+date: Wed, 26 Nov 2025 20:34:39 GMT
+vary: Accept-Encoding
+vary: gd-facet-webview
+
+-----------------------
+[HTTP2.DATA tx:1 ts:1764189279834 len:663 body:<>]
+-----------------------
+GET https://www.repstatic.it/cless/common/adv/prebid9.10.0.js HTTP/2.0
+sec-ch-ua-platform: "Android"
+user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Chromium";v="140", "Not=A?Brand";v="24", "Google Chrome";v="140"
+sec-ch-ua-mobile: ?1
+accept: */*
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+sec-fetch-dest: script
+sec-fetch-storage-access: active
+referer: https://www.repubblica.it/esteri/2025/11/26/news/casa_bianca_militari_spari_washington-425006850/?ref=RHLF-BG-P1-S1-T1-k245
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9
+
+-----------------------
+[HTTP2.DATA tx:0 ts:1764189280080 len:109801 body:<1f8b080000000000..c0c39465b3e10400>]
+-----------------------
+HTTP/2.0 200
+expires: Wed, 26 Nov 2025 20:37:38 GMT
+content-type: application/javascript
+x-cacheable: YES
+content-encoding: gzip
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: *
+referrer-policy: unsafe-url
+strict-transport-security: max-age=7200
+x-robots-tag: noarchive, max-image-preview:large
+x-kw-date: Wed, 26 Nov 2025 20:16:38 GMT
+x-kw-expires: Wed, 26 Nov 2025 20:37:38 GMT
+cache-control: max-age=1260, s-maxage=1260
+smaxagedone: yup
+x-kw-cache-control: max-age=1260, s-maxage=1260
+accept-ranges: bytes
+content-length: 109050
+date: Wed, 26 Nov 2025 20:34:39 GMT
+vary: Accept-Encoding
+vary: gd-facet-webview
+
+-----------------------

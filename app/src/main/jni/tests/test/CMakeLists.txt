@@ -32,3 +32,7 @@ add_test(NAME dump_api_max_size COMMAND ./dump_api max_dump_size)
 
 test_source(root_capture)
 add_test(NAME root_capture COMMAND ./root_capture invalid_pkts)
+
+# HTTP/2 regression test
+test_source(http2_reader)
+add_test(NAME http2_tests COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/../run_http2_tests.sh)

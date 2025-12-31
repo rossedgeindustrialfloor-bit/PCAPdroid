@@ -219,6 +219,8 @@ typedef struct pcapdroid {
     jint mitm_addon_uid;
     bool vpn_capture;
     bool pcap_file_capture;
+    const char *keylog_path_override;  // For tests: override sslkeylog.txt location
+    void (*http2_output_callback)(bool is_tx, uint64_t ms, const unsigned char *plain_data, unsigned int data_len); // For tests: custom HTTP/2 output
     payload_mode_t payload_mode;
 
     // stats

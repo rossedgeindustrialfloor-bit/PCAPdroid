@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with PCAPdroid.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Copyright 2025 - Emanuele Faranda
+ * Copyright 2025-26 - Emanuele Faranda
  */
 
 #include <assert.h>
@@ -116,8 +116,8 @@ static bool add_pending_stream(http2_conn_ctx_t *ctx, uint32_t stream_id) {
     // Check for stream ID reuse (HTTP/2 protocol violation - RFC 7540 § 5.1.1)
     // Stream IDs must be unique and monotonically increasing per connection
     if (find_stream_position(ctx, stream_id) >= 0) {
-        log_e("[HTTP2] Stream %u already pending (conv_id=%u) - discard",
-              stream_id, ctx->conv_id);
+        log_e("[HTTP2][conv:%u stream:%u] Stream already pending, discard",
+              ctx->conv_id, stream_id);
         return false;
     }
 
@@ -158,9 +158,11 @@ static bool buffer_response(http2_conn_ctx_t *ctx, uint32_t stream_id,
     if (existing) {
         if (data_len == 0)
             // e.g. HTTP req -> HTTP res -> RST (client)
-            log_d("[HTTP2] RST for already-buffered response in stream %u (conv_id=%u) - ignoring", stream_id, ctx->conv_id);
+            log_d("[HTTP2][conv:%u stream:%u] RST for already-buffered response, ignoring",
+                  ctx->conv_id, stream_id);
         else
-            log_w("[HTTP2] Response already buffered for stream %u (conv_id=%u) - ignoring", stream_id, ctx->conv_id);
+            log_w("[HTTP2][conv:%u stream:%u] Response already buffered, ignoring",
+                  ctx->conv_id, stream_id);
         return false;
     }
 
@@ -235,7 +237,7 @@ static void evict_stalled_requests(http2_conn_ctx_t *ctx, bool is_tx, uint64_t m
     {
         uint32_t first_stream = ctx->pending_stream_ids[0];
 
-        log_w("[HTTP2] Evicting stalled request: conv_id=%u stream_id=%u",
+        log_w("[HTTP2][conv:%u stream:%u] Evicting stalled request",
               ctx->conv_id, first_stream);
 
         if (g_output_fn)
@@ -285,13 +287,14 @@ void http2_handle_request(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint
     // Add to pending queue for response matching
     http2_conn_ctx_t *ctx = get_http2_context(conv_id, true);
     if (!ctx) {
-        log_e("[HTTP2] Failed to create context for conv_id=%u - dropping request", conv_id);
+        log_e("[HTTP2][conv:%u stream:%u] Failed to create context, dropping request",
+              conv_id, stream_id);
         return;
     }
 
     if (!add_pending_stream(ctx, stream_id)) {
-        log_e("[HTTP2] Failed to add pending stream %u for conv_id=%u - dropping request",
-              stream_id, conv_id);
+        log_e("[HTTP2][conv:%u stream:%u] Failed to add pending stream, dropping request",
+              conv_id, stream_id);
         return;
     }
 
@@ -310,14 +313,16 @@ void http2_handle_response(uint32_t conv_id, uint32_t stream_id, bool is_tx, uin
     http2_conn_ctx_t *ctx = get_http2_context(conv_id, false);
     if (!ctx) {
         // Edge case: Response without request
-        log_w("[HTTP2] Response for unknown conv_id=%u, stream_id=%u - ignoring", conv_id, stream_id);
+        log_w("[HTTP2][conv:%u stream:%u] Response for unknown stream, ignoring",
+              conv_id, stream_id);
         return;
     }
 
     ssize_t pos = find_stream_position(ctx, stream_id);
     if (pos < 0) {
         // Edge case: Response for non-pending stream
-        log_w("[HTTP2] Response for non-pending stream %u (conv_id=%u) - ignoring", stream_id, conv_id);
+        log_w("[HTTP2][conv:%u stream:%u] Response for non-pending stream, ignoring",
+              conv_id, stream_id);
         return;
     }
 
@@ -330,12 +335,14 @@ void http2_handle_response(uint32_t conv_id, uint32_t stream_id, bool is_tx, uin
     } else {
         // Not first, buffer it
         if (!buffer_response(ctx, stream_id, is_tx, ms, plain_data, data_len)) {
-            log_e("[HTTP2] Failed to buffer response for stream %u (conv_id=%u)", stream_id, conv_id);
+            log_e("[HTTP2][conv:%u stream:%u] Failed to buffer response",
+                  conv_id, stream_id);
             return;
         }
 
         if (g_total_pending_data > MAX_HTTP2_PENDING_SIZE) {
-            log_w("[HTTP2] Pending size exceeded (%zu bytes), evicting conv_id=%u", g_total_pending_data, conv_id);
+            log_w("[HTTP2][conv:%u stream:%u] Pending size exceeded (%zu bytes), evicting streams",
+                  conv_id, stream_id, g_total_pending_data);
             evict_stalled_requests(ctx, is_tx, ms);
         }
     }
@@ -353,7 +360,8 @@ void http2_handle_reset(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64
     ssize_t pos = find_stream_position(ctx, stream_id);
     if (pos < 0) {
         // e.g. HTTP req -> HTTP res -> RST (client)
-        log_d("[HTTP2] RST for non-pending stream %u (conv_id=%u) - ignoring", stream_id, conv_id);
+        log_d("[HTTP2][conv:%u stream:%u] RST for non-pending stream, ignoring",
+              conv_id, stream_id);
         return;
     }
 
@@ -367,6 +375,6 @@ void http2_handle_reset(uint32_t conv_id, uint32_t stream_id, bool is_tx, uint64
         // Buffer empty response
         if (!buffer_response(ctx, stream_id, is_tx, ms, NULL, 0))
             // e.g. HTTP req -> HTTP res -> RST (client)
-            log_d("[HTTP2] Discarding RST for stream %u (conv_id=%u)", stream_id, conv_id);
+            log_d("[HTTP2][conv:%u stream:%u] Discarding RST", conv_id, stream_id);
     }
 }

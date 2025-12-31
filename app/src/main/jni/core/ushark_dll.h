@@ -21,6 +21,6 @@ typedef struct {
 } ushark_data_callbacks_t;
 void ushark_set_callbacks(ushark_t *sk, const ushark_data_callbacks_t *cbs);
 
-void ushark_dissect(ushark_t *sk, const unsigned char *buf, const struct pcap_pkthdr *hdr);
+const char* ushark_dissect(ushark_t *sk, const unsigned char *buf, const struct pcap_pkthdr *hdr);
 
 #endif

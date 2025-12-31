@@ -38,7 +38,10 @@ static void free_payload_chunks(pcapdroid_t *pd);
 /* ******************************************************* */
 
 static void getPcapdPath(struct pcapdroid *pd, const char *prog_name, char *buf, int bufsize) {
-  snprintf(buf, bufsize, "../main/pcapd/libpcapd.so");
+    if (strcmp(prog_name, "pcapd") == 0)
+        snprintf(buf, bufsize, "../main/pcapd/libpcapd.so");
+    else if (strcmp(prog_name, "ushark") == 0)
+        snprintf(buf, bufsize, "/home/emanuele/src/PCAPdroid/submodules/PCAPdroid-ushark-bin/release/x86_64/libushark.so");
 }
 
 /* ******************************************************* */

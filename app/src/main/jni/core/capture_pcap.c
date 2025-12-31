@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with PCAPdroid.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Copyright 2021-25 - Emanuele Faranda
+ * Copyright 2021-26 - Emanuele Faranda
  */
 
 #include <sys/un.h>
@@ -29,6 +29,13 @@
 #include "pcap_reader.h"
 #include "ushark_dll.h"
 #include "http2.h"
+
+#if defined(__SANITIZE_ADDRESS__) || (defined(__has_feature) && __has_feature(address_sanitizer))
+#include <sanitizer/lsan_interface.h>
+#else
+#define __lsan_enable()
+#define __lsan_disable()
+#endif
 
 #define ICMP_TIMEOUT_SEC 5
 #define UDP_TIMEOUT_SEC 30
@@ -452,28 +459,36 @@ static void handle_ushark_http1_data(uint32_t conv_id, const unsigned char *plai
         return;
 
     // HTTP/1 is sequential, so no special handling needed
+    __lsan_enable();
     handle_http_data(g_cur_ctx->is_tx, g_cur_ctx->ms, plain_data, data_len);
+    __lsan_disable();
 }
 
 void handle_ushark_http2_request(uint32_t conv_id, uint32_t stream_id, const unsigned char *plain_data, size_t data_len) {
     if (!g_cur_ctx)
         return;
 
+    __lsan_enable();
     http2_handle_request(conv_id, stream_id, g_cur_ctx->is_tx, g_cur_ctx->ms, plain_data, data_len);
+    __lsan_disable();
 }
 
 void handle_ushark_http2_response(uint32_t conv_id, uint32_t stream_id, const unsigned char *plain_data, size_t data_len) {
     if (!g_cur_ctx)
         return;
 
+    __lsan_enable();
     http2_handle_response(conv_id, stream_id, g_cur_ctx->is_tx, g_cur_ctx->ms, plain_data, data_len);
+    __lsan_disable();
 }
 
 void handle_ushark_http2_reset(uint32_t conv_id, uint32_t stream_id) {
     if (!g_cur_ctx)
         return;
 
+    __lsan_enable();
     http2_handle_reset(conv_id, stream_id, g_cur_ctx->is_tx, g_cur_ctx->ms);
+    __lsan_disable();
 }
 
 /* ******************************************************* */
@@ -585,9 +600,14 @@ static bool handle_packet(pcapdroid_t *pd, pcapd_hdr_t *hdr, const char *buffer,
         pcap_hdr.len = pcap_hdr.caplen = pkt.len;
         pcap_hdr.ts = hdr->ts;
 
+        // This disables the reporting of leaks inside libushark.
+        // The reporting is enabled again in the individual callbacks (e.g. handle_ushark_http2_request)
+        // to detect leaks in pcapdroid
+        __lsan_disable();
         ushark_dissect(pd->pcap.usk,
                            (const unsigned char*) pkt.l3,
                            &pcap_hdr);
+        __lsan_enable();
 
         if (g_plain_data.n_items > 0)
             pinfo.plain_data = &g_plain_data;
@@ -762,6 +782,27 @@ static reader_rv read_file(pcapdroid_t *pd, pd_reader_t *reader, pcapd_hdr_t* hd
 
 /* ******************************************************* */
 
+// Wrapper function for ushark initialization to allow LSAN suppression
+static void init_ushark_for_pcap(pcapdroid_t *pd, const char *keylog_path) {
+    if (ushark_init(pd)) {
+        pd->pcap.usk = ushark_new(PCAPD_DLT_RAW, "");
+
+        // Initialize HTTP2 tracking with output callback
+        // Use custom callback if set (for tests), otherwise use handle_http_data
+        http2_init(pd->http2_output_callback ? pd->http2_output_callback : handle_http_data);
+
+        ushark_data_callbacks_t cbs = {
+                .on_http1_data = handle_ushark_http1_data,
+                .on_http2_request = handle_ushark_http2_request,
+                .on_http2_response = handle_ushark_http2_response,
+                .on_http2_reset = handle_ushark_http2_reset,
+        };
+        ushark_set_callbacks(pd->pcap.usk, &cbs);
+
+        ushark_set_pref("tls.keylog_file", keylog_path);
+    }
+}
+
 int run_pcap(pcapdroid_t *pd) {
     int sock = -1;
     pd_reader_t *reader = NULL;
@@ -774,27 +815,14 @@ int run_pcap(pcapdroid_t *pd) {
 
     if (pd->pcap_file_capture) {
         // check if the SSL keylog exists
-        const char *keylog_path = get_cache_path(pd, "sslkeylog.txt");
+        // Use override path if provided (for tests), otherwise use default location
+        const char *keylog_path = pd->keylog_path_override
+                                   ? pd->keylog_path_override
+                                   : get_cache_path(pd, "sslkeylog.txt");
 
         if (access(keylog_path, F_OK) == 0) {
             log_i("Use ushark for TLS decryption");
-
-            if (ushark_init(pd)) {
-                pd->pcap.usk = ushark_new(PCAPD_DLT_RAW, "");
-
-                // Initialize HTTP2 tracking with output callback
-                http2_init(handle_http_data);
-
-                ushark_data_callbacks_t cbs = {
-                        .on_http1_data = handle_ushark_http1_data,
-                        .on_http2_request = handle_ushark_http2_request,
-                        .on_http2_response = handle_ushark_http2_response,
-                        .on_http2_reset = handle_ushark_http2_reset,
-                };
-                ushark_set_callbacks(pd->pcap.usk, &cbs);
-
-                ushark_set_pref("tls.keylog_file", keylog_path);
-            }
+            init_ushark_for_pcap(pd, keylog_path);
         }
     }
 

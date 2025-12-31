@@ -1,0 +1,10 @@
+# LeakSanitizer suppressions file
+#
+# The libushark leaks related to ushark_dissect are suppressed via __lsan_disable/enable in
+# capture_pcap.c. This suppresses the remaining leaks from libushark
+leak:ushark_init
+
+# Suppress libushark thread initialization leaks (async thread constructors)
+# These have only <unknown module> + asan_thread_start in stack
+# Test code leaks won't match because they have visible function names (http2_output_callback, etc.)
+leak:asan_thread_start
